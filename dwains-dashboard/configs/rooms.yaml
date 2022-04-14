@@ -1,27 +1,47 @@
 # https://dwainscheeren.github.io/dwains-lovelace-dashboard/configuration/rooms.html
 
-# rooms:
-#   - name: hallway # Has to use ascii letters only
-#     title: "Hallway" # May contain non-ascii letters
-#     icon: mdi:key
-#     light: light.hallway
-#     temperature: sensor.hallway_temperature
-#     climate: climate.hallway_climate
-#     humidity: sensor.halway_humidity
-#     motion: binary_sensor.hallway_sensor_motion
-#     door: binary_sensor.hallway_door_contact
-#     window: binary_sensor.hallway_window_contact
-#     safety: sensor.smoke_sensor
-#     device: switch.television
-#     vacuum: 
-#       entity: vacuum.rockrobo
-#       camera: camera.rockrobo_map
-#     plant: plant.hallway_plant
-#     media_player: media_player.awesome_hallway_tv
-#     more_entities:
-#       entities:
-#         - entity: sensor.hallway_motion_battery_level
-#         - entity: sensor.smokedetector_battery
+rooms:
+  - name: hallway
+    title: "Flur"
+    icon: mdi:key
+  - name: groundlevel
+    title: "Erdgeschoss"
+    icon: mdi:sofa-outline
+  - name: patio
+    title: "Terrasse"
+  - name: garden
+    title: "Garten"
+  - name: bedroom
+    title: "Schlafzimmer"
+  - name: child1
+    title: "Charlotte"
+  - name: child2
+    title: "Josefine"
+  - name: office
+    title: "Buero"
+  - name: guestroom
+    title: "Gaestezimmer"
+#  - name: unten # Has to use ascii letters only
+#    title: "Hallway" # May contain non-ascii letters
+#    icon: mdi:key
+#    light: light.hallway
+#    temperature: sensor.hallway_temperature
+#    climate: climate.hallway_climate
+#    humidity: sensor.halway_humidity
+#    motion: binary_sensor.hallway_sensor_motion
+#    door: binary_sensor.hallway_door_contact
+#    window: binary_sensor.hallway_window_contact
+#    safety: sensor.smoke_sensor
+#    device: switch.television
+#    vacuum:
+#      entity: vacuum.rockrobo
+#      camera: camera.rockrobo_map
+#    plant: plant.hallway_plant
+#    media_player: media_player.awesome_hallway_tv
+#    more_entities:
+#      entities:
+#        - entity: sensor.hallway_motion_battery_level
+#        - entity: sensor.smokedetector_battery
 #   - name: Garage
 #     icon: mdi:garage
 #     light: group.garage_lights
