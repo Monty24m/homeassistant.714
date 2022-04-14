@@ -1,11 +1,8 @@
 # Loads default set of integrations. Do not remove.
 default_config:
 
-# Text to speech
-tts:
-  - platform: google_translate
-
 automation: !include automations.yaml
 homematic: !include integrations/homematic.yaml
+tts: !include integrations/tts.yaml 
 script: !include scripts.yaml
 scene: !include scenes.yaml
