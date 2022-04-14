@@ -6,6 +6,6 @@ tts:
   - platform: google_translate
 
 automation: !include automations.yaml
-homematic: !include integration_homematic.yaml
+homematic: !include integrations/homematic.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
