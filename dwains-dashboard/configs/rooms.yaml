@@ -11,27 +11,29 @@ rooms:
     icon: mdi:sofa-outline
     climate: climate.int0000001
     temperature: sensor.climate_int0000001_current_temperature
+    light: group.lights.lights_groundlevel
   - name: patio
     title: "Terrasse"
     icon: mdi:balcony
   - name: garden
     title: "Garten"
-    icon: mdi:shovel
+    icon: mdi:flower-tulip
   - name: bedroom
     title: "Schlafzimmer"
     icon: mdi:bed-double-outline
   - name: child1
     title: "Charlotte"
     icon: mdi:teddy-bear
+    cover: cover.00115d8992e96b
   - name: child2
     title: "Josefine"
     icon: mdi:teddy-bear
   - name: office
     title: "Buero"
-    icon: mdi:office-building-marker
+    icon: mdi:desk-lamp
   - name: guestroom
     title: "Gaestezimmer"
-    icon: mdi:bed
+    icon: mdi:hail
 #  - name: unten # Has to use ascii letters only
 #    title: "Hallway" # May contain non-ascii letters
 #    icon: mdi:key

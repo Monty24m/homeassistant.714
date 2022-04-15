@@ -1,8 +1,18 @@
 - platform: template
   sensors:
+    climate_int0000001_temperature:
+      value_template: "{{ state_attr('climate.int0000001', 'temperature') | float }}"
+      friendly_name: "Eingestellte Temperatur"
+      unit_of_measurement: "°C"
+
     climate_int0000001_current_temperature:
       value_template: "{{ state_attr('climate.int0000001', 'current_temperature') | float }}"
       friendly_name: "Aktuelle Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_int0000002_temperature:
+      value_template: "{{ state_attr('climate.int0000002', 'temperature') | float }}"
+      friendly_name: "Eingestellte Temperatur"
       unit_of_measurement: "°C"
 
     climate_int0000002_current_temperature:
