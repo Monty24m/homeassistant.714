@@ -5,6 +5,7 @@ rooms:
     title: "Flur"
     icon: mdi:key
     climate: climate.int0000002
+    temperature: sensor.climate_int0000001_current_temperature
   - name: groundlevel
     title: "Erdgeschoss"
     icon: mdi:sofa-outline

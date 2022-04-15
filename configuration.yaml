@@ -3,6 +3,7 @@ default_config:
 
 automation: !include automations.yaml
 homematic: !include integrations/homematic.yaml
-tts: !include integrations/tts.yaml 
+tts: !include integrations/tts.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
+sensor: !include sensors.yaml
