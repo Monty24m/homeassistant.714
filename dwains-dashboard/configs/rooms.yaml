@@ -9,18 +9,25 @@ rooms:
     icon: mdi:sofa-outline
   - name: patio
     title: "Terrasse"
+    icon: mdi:balcony
   - name: garden
     title: "Garten"
+    icon: mdi:shovel
   - name: bedroom
     title: "Schlafzimmer"
+    icon: mdi:bed-double-outline
   - name: child1
     title: "Charlotte"
+    icon: mdi:teddy-bear
   - name: child2
     title: "Josefine"
+    icon: mdi:teddy-bear
   - name: office
     title: "Buero"
+    icon: mdi:office-building-marker
   - name: guestroom
     title: "Gaestezimmer"
+    icon: mdi:bed
 #  - name: unten # Has to use ascii letters only
 #    title: "Hallway" # May contain non-ascii letters
 #    icon: mdi:key
