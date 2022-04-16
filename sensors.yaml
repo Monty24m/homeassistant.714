@@ -1,5 +1,9 @@
 - platform: template
   sensors:
+    # -------------------------------------------
+    # CLIMATE Sensors
+    # -------------------------------------------
+    # climate_int0000001
     climate_int0000001_temperature:
       value_template: "{{ state_attr('climate.int0000001', 'temperature') | float }}"
       friendly_name: "Eingestellte Temperatur"
@@ -10,6 +14,15 @@
       friendly_name: "Aktuelle Temperatur"
       unit_of_measurement: "°C"
 
+    climate_int0000001_preset_mode:
+      value_template: "{{ state_attr('climate.int0000001', 'preset_mode') }}"
+      friendly_name: "Preset Modus"
+
+    climate_int0000001_mode:
+      value_template: "{{ state_attr('climate.int0000001', 'mode') }}"
+      friendly_name: "Modus"
+
+    # climate_int0000002
     climate_int0000002_temperature:
       value_template: "{{ state_attr('climate.int0000002', 'temperature') | float }}"
       friendly_name: "Eingestellte Temperatur"
@@ -19,3 +32,49 @@
       value_template: "{{ state_attr('climate.int0000002', 'current_temperature') | float }}"
       friendly_name: "Aktuelle Temperatur"
       unit_of_measurement: "°C"
+
+    climate_int0000002_preset_mode:
+      value_template: "{{ state_attr('climate.int0000002', 'preset_mode') }}"
+      friendly_name: "Preset Modus"
+
+    climate_int0000002_mode:
+      value_template: "{{ state_attr('climate.int0000002', 'mode') }}"
+      friendly_name: "Modus"
+
+    # climate_meq0182049
+    climate_meq0182049_temperature:
+      value_template: "{{ state_attr('climate.meq0182049', 'temperature') | float }}"
+      friendly_name: "Eingestellte Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_meq0182049_current_temperature:
+      value_template: "{{ state_attr('climate.meq0182049', 'current_temperature') | float }}"
+      friendly_name: "Aktuelle Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_meq0182049_preset_mode:
+      value_template: "{{ state_attr('climate.meq0182049', 'preset_mode') }}"
+      friendly_name: "Preset Modus"
+
+    climate_meq0182049_mode:
+      value_template: "{{ state_attr('climate.meq0182049', 'mode') }}"
+      friendly_name: "Modus"
+
+    # climate.meq0182083
+    climate_meq0182083_temperature:
+      value_template: "{{ state_attr('climate.meq0182083', 'temperature') | float }}"
+      friendly_name: "Eingestellte Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_meq0182083_current_temperature:
+      value_template: "{{ state_attr('climate.meq0182083', 'current_temperature') | float }}"
+      friendly_name: "Aktuelle Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_meq0182083_preset_mode:
+      value_template: "{{ state_attr('climate.meq0182083', 'preset_mode') }}"
+      friendly_name: "Preset Modus"
+
+    climate_meq0182083_mode:
+      value_template: "{{ state_attr('climate.meq0182083', 'mode') }}"
+      friendly_name: "Modus"
