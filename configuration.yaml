@@ -1,6 +1,14 @@
 # Loads default set of integrations. Do not remove.
 default_config:
 
+# Example configuration.yaml entry
+light:
+  - platform: group
+    name: "Licht im Haus"
+    entities:
+      - light.neq1800641
+      - light.0008dd898f1553
+
 automation: !include automations.yaml
 homematic: !include integrations/homematic.yaml
 tts: !include integrations/tts.yaml

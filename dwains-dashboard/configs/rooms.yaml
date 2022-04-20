@@ -1,6 +1,10 @@
 # https://dwainscheeren.github.io/dwains-lovelace-dashboard/configuration/rooms.html
 
 rooms:
+  - name: home
+    title: "Ganzes Haus"
+    icon: mdi:home
+    light: light.all_home_lights
   - name: hallway
     title: "Flur"
     icon: mdi:key
@@ -10,8 +14,17 @@ rooms:
     title: "Erdgeschoss"
     icon: mdi:sofa-outline
     climate: climate.int0000001
-    temperature: sensor.climate_int0000001_current_temperature
-    light: group.lights.lights_groundlevel
+    page_entities:
+      columns: 2 #optional
+      show_title: "Sensoren" #optional
+      entities:
+        - entity: sensor.climate_int0000001_current_temperature
+        - entity: binary_sensor.meq0798691_lowbat
+        - entity: binary_sensor.meq0182049_lowbat
+        - entity: binary_sensor.meq1574736_lowbat
+        - entity: binary_sensor.meq0182083_lowbat
+        - entity: binary_sensor.req1161407_lowbat
+
   - name: patio
     title: "Terrasse"
     icon: mdi:balcony
