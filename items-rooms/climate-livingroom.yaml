@@ -1,0 +1,44 @@
+- type: vertical-stack
+  cards:
+    - hours_to_show: 24
+      graph: line
+      type: sensor
+      entity: sensor.climate_int0000001_current_temperature
+      detail: 1
+      name: " "
+    - type: entities
+      entities:
+        - entity: sensor.climate_int0000001_temperature
+        - entity: sensor.climate_int0000001_mode
+    - type: horizontal-stack
+      cards:
+        - type: gauge
+          entity: sensor.climate_int0000001_temperature
+          severity:
+            green: 19
+            yellow: 21
+            red: 23
+          min: 18
+          max: 25
+          name: " "
+        - type: vertical-stack
+          cards:
+            - show_name: false
+              show_icon: true
+              type: button
+              tap_action:
+                action: toggle
+              icon_height: 50px
+              icon: mdi:plus-circle
+              show_state: true
+              hold_action:
+                action: none
+            - show_name: true
+              show_icon: true
+              type: button
+              tap_action:
+                action: toggle
+              icon: mdi:minus-circle
+              hold_action:
+                action: none
+              icon_height: 50px

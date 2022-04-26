@@ -4,10 +4,17 @@ default_config:
 # Example configuration.yaml entry
 light:
   - platform: group
-    name: "Licht im Haus"
+    name: group_714_lights_all
     entities:
-      - light.neq1800641
       - light.0008dd898f1553
+      #- light.neq1800641
+
+cover:
+  - platform: group
+    name: group_714_cover_all
+    entities:
+      - cover.00115d8992e96b
+      #- cover.00115d8992ea34
 
 automation: !include automations.yaml
 homematic: !include integrations/homematic.yaml
