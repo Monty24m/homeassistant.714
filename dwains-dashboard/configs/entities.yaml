@@ -1,0 +1,8 @@
+binary_sensor.00091a499b76bb_motion_detection_active:
+  disabled: true
+light.neq1800641:
+  devices_sort_order: 1
+media_player.fernsehzimmer:
+  hidden: false
+sensor.00115d8992e96b_level:
+  hidden: true

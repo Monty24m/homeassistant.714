@@ -1,0 +1,58 @@
+bader:
+  disabled: false
+  floor: Innen
+  grouped_sort_order: 4
+  icon: mdi:shower-head
+buro:
+  disabled: false
+  floor: Innen
+  grouped_sort_order: 6
+  icon: mdi:email
+charlotte:
+  disabled: false
+  floor: Obergeschoss
+  icon: mdi:face-woman-outline
+einstellungen:
+  disabled: true
+  floor: ''
+  icon: ''
+flur:
+  disabled: false
+  floor: Innen
+  grouped_sort_order: 5
+  icon: mdi:stairs
+garten:
+  disabled: false
+  floor: Aussen
+  icon: mdi:shovel
+gastezimmer:
+  disabled: false
+  floor: Innen
+  icon: mdi:wallet-travel
+josefine:
+  disabled: false
+  floor: Obergeschoss
+  icon: mdi:face-woman-profile
+kuche:
+  disabled: false
+  floor: Innen
+  grouped_sort_order: 2
+  icon: mdi:food-apple-outline
+schlafzimmer:
+  disabled: false
+  floor: Innen
+  grouped_sort_order: 3
+  icon: mdi:bed-outline
+system:
+  disabled: false
+  floor: Haus
+  icon: mdi:power
+wohnbereich:
+  disabled: false
+  floor: Innen
+  grouped_sort_order: 1
+  icon: mdi:sofa-outline
+wohnzimmer:
+  disabled: false
+  floor: Erdgeschoss
+  icon: mdi:sofa-outline

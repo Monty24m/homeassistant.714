@@ -33,6 +33,10 @@ rooms:
         - entity: binary_sensor.meq1574736_lowbat
         - entity: binary_sensor.meq0182083_lowbat
         - entity: binary_sensor.req1161407_lowbat
+  - name: bath
+    title: "Badezimmer"
+    icon: mdi:shower
+    climate: climate.002a9d89bc211e
   - name: patio
     title: "Terrasse"
     icon: mdi:balcony
