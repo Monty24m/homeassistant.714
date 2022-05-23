@@ -16,6 +16,20 @@ cover:
       - cover.00115d8992e96b
       #- cover.00115d8992ea34
 
+# Example configuration.yaml entry
+alarm_control_panel:
+  - platform: manual
+    name: Home Alarm
+    code: "4161"
+    arming_time: 30
+    delay_time: 20
+    trigger_time: 4
+    disarmed:
+      trigger_time: 0
+    armed_home:
+      arming_time: 0
+      delay_time: 0
+
 automation: !include automations.yaml
 homematic: !include integrations/homematic.yaml
 tts: !include integrations/tts.yaml

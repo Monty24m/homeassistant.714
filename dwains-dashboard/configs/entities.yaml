@@ -1,5 +1,7 @@
 binary_sensor.00091a499b76bb_motion_detection_active:
   disabled: true
+climate.int0000001:
+  grouped_sort_order: 1
 light.neq1800641:
   devices_sort_order: 1
 media_player.fernsehzimmer:
