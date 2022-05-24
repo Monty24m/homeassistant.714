@@ -135,3 +135,95 @@
     climate_oeq0659364_mode:
       value_template: "{{ state_attr('climate.oeq0659364', 'mode') }}"
       friendly_name: "Modus"
+
+    # climate.002a9d89bc211e
+    climate_002a9d89bc211e_temperature:
+      value_template: "{{ state_attr('climate.002a9d89bc211e', 'temperature') | float }}"
+      friendly_name: "Eingestellte Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_002a9d89bc211e_current_temperature:
+      value_template: "{{ state_attr('climate.002a9d89bc211e', 'current_temperature') | float }}"
+      friendly_name: "Aktuelle Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_002a9d89bc211e_preset_mode:
+      value_template: "{{ state_attr('climate.002a9d89bc211e', 'preset_mode') }}"
+      friendly_name: "Preset Modus"
+
+    climate_002a9d89bc211e_mode:
+      value_template: "{{ state_attr('climate.002a9d89bc211e', 'mode') }}"
+      friendly_name: "Modus"
+
+    # -------------------------------------------
+    # LIGHT Sensors
+    # -------------------------------------------
+    # light.neq1800641
+    light_neq1800641_supported_color_modes:
+      value_template: "{{ state_attr('light.neq1800641', 'supported_color_modes') }}"
+      friendly_name: "Supported Color Modes"
+
+    light_neq1800641_color_mode:
+      value_template: "{{ state_attr('light.neq1800641', 'color_mode') }}"
+      friendly_name: "Color Mode"
+
+    light_neq1800641_brightness:
+      value_template: "{{ state_attr('light.neq1800641', 'brightness') | float }}"
+      friendly_name: "Brightness"
+
+    light_neq1800641_id:
+      value_template: "{{ state_attr('light.neq1800641', 'id') }}"
+      friendly_name: "ID"
+
+    light_neq1800641_interface:
+      value_template: "{{ state_attr('light.neq1800641', 'interface') }}"
+      friendly_name: "Interface"
+
+    light_neq1800641_level:
+      value_template: "{{ state_attr('light.neq1800641', 'level') | float }}"
+      friendly_name: "Level"
+
+    light_neq1800641_working:
+      value_template: "{{ state_attr('light.neq1800641', 'working') }}"
+      friendly_name: "Working"
+
+    light_neq1800641_friendly_name:
+      value_template: "{{ state_attr('light.neq1800641', 'friendly_name') }}"
+      friendly_name: "Friendly Name"
+
+    light_neq1800641_supported_features:
+      value_template: "{{ state_attr('light.neq1800641', 'supported_features') | float }}"
+      friendly_name: "Supported Features"
+
+    # light.0008dd898f1553
+    light_0008dd898f1553_supported_color_modes:
+      value_template: "{{ state_attr('light.0008dd898f1553', 'supported_color_modes') }}"
+      friendly_name: "Supported Color Modes"
+
+    light_0008dd898f1553_color_mode:
+      value_template: "{{ state_attr('light.0008dd898f1553', 'color_mode') }}"
+      friendly_name: "Color Mode"
+
+    light_0008dd898f1553_brightness:
+      value_template: "{{ state_attr('light.0008dd898f1553', 'brightness') | float }}"
+      friendly_name: "Brightness"
+
+    light_0008dd898f1553_id:
+      value_template: "{{ state_attr('light.0008dd898f1553', 'id') }}"
+      friendly_name: "ID"
+
+    light_0008dd898f1553_interface:
+      value_template: "{{ state_attr('light.0008dd898f1553', 'interface') }}"
+      friendly_name: "Interface"
+
+    light_0008dd898f1553_level:
+      value_template: "{{ state_attr('light.0008dd898f1553', 'level') | float }}"
+      friendly_name: "Level"
+
+    light_0008dd898f1553_friendly_name:
+      value_template: "{{ state_attr('light.0008dd898f1553', 'friendly_name') }}"
+      friendly_name: "Friendly Name"
+
+    light_0008dd898f1553_supported_features:
+      value_template: "{{ state_attr('light.0008dd898f1553', 'supported_features') | float }}"
+      friendly_name: "Supported Features"

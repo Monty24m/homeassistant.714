@@ -2,9 +2,13 @@ binary_sensor.00091a499b76bb_motion_detection_active:
   disabled: true
 climate.int0000001:
   grouped_sort_order: 1
+light.0008dd898f1553:
+  hidden: false
 light.neq1800641:
   devices_sort_order: 1
+media_player.fernseher:
+  hidden: true
 media_player.fernsehzimmer:
-  hidden: false
+  hidden: true
 sensor.00115d8992e96b_level:
   hidden: true
