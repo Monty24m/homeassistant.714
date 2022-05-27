@@ -1,0 +1,33 @@
+cards:
+- entities:
+  - sensor.siebeneinviertel_max_connection_download_throughput
+  font_size: 75
+  line_color: blue
+  line_width: 8
+  type: custom:mini-graph-card
+- entities:
+  - sensor.siebeneinviertel_max_connection_upload_throughput
+  font_size: 75
+  line_color: '#e74c3c'
+  line_width: 8
+  type: custom:mini-graph-card
+- entities:
+  - sensor.siebeneinviertel_gb_received
+  font_size: 75
+  line_color: var(--accent-color)
+  line_width: 8
+  type: custom:mini-graph-card
+- entities:
+  - sensor.siebeneinviertel_gb_sent
+  font_size: 75
+  line_color: var(--accent-color)
+  line_width: 8
+  type: custom:mini-graph-card
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+position: top
+row_span: '1'
+row_span_lg: '1'
+row_span_xl: '1'
+type: horizontal-stack

@@ -2,8 +2,12 @@ binary_sensor.00091a499b76bb_motion_detection_active:
   disabled: true
 climate.int0000001:
   grouped_sort_order: 1
+cover.neq1320714:
+  grouped_sort_order: 1
+cover.neq1320731:
+  grouped_sort_order: 2
 light.0008dd898f1553:
-  hidden: false
+  hidden: true
 light.neq1800641:
   devices_sort_order: 1
 media_player.fernseher:
@@ -11,4 +15,28 @@ media_player.fernseher:
 media_player.fernsehzimmer:
   hidden: true
 sensor.00115d8992e96b_level:
+  hidden: true
+sensor.siebeneinviertel_download_throughput:
+  hidden: true
+sensor.siebeneinviertel_gb_received:
+  hidden: true
+sensor.siebeneinviertel_gb_sent:
+  hidden: true
+sensor.siebeneinviertel_link_download_noise_margin:
+  hidden: true
+sensor.siebeneinviertel_link_download_power_attenuation:
+  hidden: true
+sensor.siebeneinviertel_link_download_throughput:
+  hidden: true
+sensor.siebeneinviertel_link_upload_noise_margin:
+  hidden: true
+sensor.siebeneinviertel_link_upload_power_attenuation:
+  hidden: true
+sensor.siebeneinviertel_link_upload_throughput:
+  hidden: true
+sensor.siebeneinviertel_max_connection_download_throughput:
+  hidden: true
+sensor.siebeneinviertel_max_connection_upload_throughput:
+  hidden: true
+sensor.siebeneinviertel_upload_throughput:
   hidden: true
