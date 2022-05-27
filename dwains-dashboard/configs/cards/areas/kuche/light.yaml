@@ -1,0 +1,11 @@
+col_span: '1'
+col_span_lg: '1'
+col_span_xl: '1'
+entity: light.neq1800641
+hold_action:
+  action: none
+position: top
+row_span: '2'
+row_span_lg: '2'
+row_span_xl: '2'
+type: light

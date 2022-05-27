@@ -1,0 +1,12 @@
+col_span: '1'
+col_span_lg: '1'
+col_span_xl: '1'
+detail: 2
+entity: sensor.humidity_diedorf_schwaben_bib
+graph: line
+hours_to_show: 24
+position: top
+row_span: '1'
+row_span_lg: '1'
+row_span_xl: '1'
+type: sensor
