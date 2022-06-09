@@ -1,6 +1,6 @@
 col_span: '2'
-col_span_lg: '3'
-col_span_xl: '4'
+col_span_lg: '2'
+col_span_xl: '3'
 color_thresholds:
 - color: '#f39c12'
   value: 20
@@ -9,13 +9,13 @@ color_thresholds:
 - color: '#c0392b'
   value: 21.5
 entities:
-- entity: sensor.climate_int0000001_current_temperature
+- entity: sensor.climate_req0510046_current_temperature
   name: INNEN
 - color: blue
   entity: sensor.temperature_diedorf_schwaben_bib
   name: AUSSEN
 name: Temperatur
-position: top
+position: bottom
 row_span: '1'
 row_span_lg: '1'
 row_span_xl: '1'

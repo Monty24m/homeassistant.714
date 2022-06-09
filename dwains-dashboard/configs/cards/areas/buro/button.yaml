@@ -1,7 +1,7 @@
 col_span: '1'
 col_span_lg: '1'
 col_span_xl: '1'
-entity: switch.neq1316177_1
+entity: light.deckenlicht
 hold_action:
   action: none
 name: Deckenlicht

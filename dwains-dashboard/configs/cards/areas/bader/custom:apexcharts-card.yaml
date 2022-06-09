@@ -9,12 +9,14 @@ color_thresholds:
 - color: '#c0392b'
   value: 21.5
 entities:
-- entity: sensor.climate_int0000001_current_temperature
+- entity: sensor.climate_002a9d89bc211e_current_temperature
   name: INNEN
 - color: blue
   entity: sensor.temperature_diedorf_schwaben_bib
   name: AUSSEN
+hours_to_show: 24
 name: Temperatur
+points_per_hour: 4
 position: top
 row_span: '1'
 row_span_lg: '1'

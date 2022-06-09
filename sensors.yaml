@@ -60,6 +60,25 @@
       value_template: "{{ state_attr('climate.meq0182049', 'mode') }}"
       friendly_name: "Modus"
 
+    # climate.00265d89b11daa
+    climate_00265d89b11daa_temperature:
+      value_template: "{{ state_attr('climate.00265d89b11daa', 'temperature') | float }}"
+      friendly_name: "Eingestellte Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_00265d89b11daa_current_temperature:
+      value_template: "{{ state_attr('climate.00265d89b11daa', 'current_temperature') | float }}"
+      friendly_name: "Aktuelle Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_00265d89b11daa_preset_mode:
+      value_template: "{{ state_attr('climate.00265d89b11daa', 'preset_mode') }}"
+      friendly_name: "Preset Modus"
+
+    climate_00265d89b11daa_mode:
+      value_template: "{{ state_attr('climate.00265d89b11daa', 'mode') }}"
+      friendly_name: "Modus"
+
     # climate.meq0182083
     climate_meq0182083_temperature:
       value_template: "{{ state_attr('climate.meq0182083', 'temperature') | float }}"
@@ -153,6 +172,25 @@
 
     climate_002a9d89bc211e_mode:
       value_template: "{{ state_attr('climate.002a9d89bc211e', 'mode') }}"
+      friendly_name: "Modus"
+
+    # climate.req0510046
+    climate_req0510046_temperature:
+      value_template: "{{ state_attr('climate.req0510046', 'temperature') | float }}"
+      friendly_name: "Eingestellte Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_req0510046_current_temperature:
+      value_template: "{{ state_attr('climate.req0510046', 'current_temperature') | float }}"
+      friendly_name: "Aktuelle Temperatur"
+      unit_of_measurement: "°C"
+
+    climate_req0510046_preset_mode:
+      value_template: "{{ state_attr('climate.req0510046', 'preset_mode') }}"
+      friendly_name: "Preset Modus"
+
+    climate_req0510046_mode:
+      value_template: "{{ state_attr('climate.req0510046', 'mode') }}"
       friendly_name: "Modus"
 
     # -------------------------------------------

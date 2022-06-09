@@ -2,12 +2,86 @@ binary_sensor.00091a499b76bb_motion_detection_active:
   disabled: true
 climate.int0000001:
   grouped_sort_order: 1
+climate.oeq0659364:
+  col_span: '1'
+  col_span_lg: '1'
+  col_span_xl: '1'
+  custom_card: false
+  custom_popup: false
+  disabled: false
+  excluded: false
+  friendly_name: ''
+  hidden: false
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
+  sort_order: 1
+climate.req0510046:
+  sort_order: 5
+cover.00115d8992e96b:
+  col_span: '2'
+  col_span_lg: '2'
+  col_span_xl: '2'
+  custom_card: false
+  custom_popup: false
+  disabled: false
+  excluded: false
+  friendly_name: ''
+  hidden: false
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
+  sort_order: 6
+cover.00115d8992ea34:
+  col_span: '2'
+  col_span_lg: '2'
+  col_span_xl: '2'
+  custom_card: false
+  custom_popup: false
+  disabled: false
+  excluded: false
+  friendly_name: ''
+  hidden: false
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
+  sort_order: 4
+cover.00115d8992ea44:
+  col_span: '2'
+  col_span_lg: '2'
+  col_span_xl: '2'
+  custom_card: false
+  custom_popup: false
+  disabled: false
+  excluded: false
+  friendly_name: ''
+  hidden: false
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
+  sort_order: 2
+cover.00115d89991b61:
+  col_span: '2'
+  col_span_lg: '2'
+  col_span_xl: '2'
+  custom_card: false
+  custom_popup: false
+  disabled: false
+  excluded: false
+  friendly_name: ''
+  hidden: false
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
+  sort_order: 3
 cover.neq1320714:
   grouped_sort_order: 1
 cover.neq1320731:
   grouped_sort_order: 2
 light.0008dd898f1553:
   hidden: true
+light.gastezimmer:
+  sort_order: 7
 light.neq1800641:
   devices_sort_order: 1
 media_player.fernseher:
@@ -40,3 +114,16 @@ sensor.siebeneinviertel_max_connection_upload_throughput:
   hidden: true
 sensor.siebeneinviertel_upload_throughput:
   hidden: true
+weather.dwd_weather_diedorf_schwaben_bib:
+  col_span: '2'
+  col_span_lg: '3'
+  col_span_xl: '4'
+  custom_card: false
+  custom_popup: false
+  disabled: false
+  excluded: false
+  friendly_name: Wetter
+  hidden: false
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
