@@ -3,3 +3,4 @@ disable_clock: true
 disable_welcome_message: true
 v2_mode: false
 weather_entity: weather.dwd_weather_diedorf_schwaben_bib
+am_pm_clock: true
