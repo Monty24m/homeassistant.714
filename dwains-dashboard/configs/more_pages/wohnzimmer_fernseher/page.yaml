@@ -1,2 +1,470 @@
-cards: []
-type: horizontal-stack
+cards:
+- cards:
+  - icon: mdi:power
+    icon_height: 35px
+    show_icon: true
+    show_name: true
+    tap_action:
+      action: call-service
+      data:
+        command: TvPower
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  columns: 1
+  square: false
+  type: grid
+- cards:
+  - icon: mdi:netflix
+    icon_height: 65px
+    name: NETFLIX
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Netflix
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  columns: 1
+  square: false
+  type: grid
+- cards:
+  - icon: mdi:volume-plus
+    icon_height: 25px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data: {}
+      service: media_player.volume_up
+      target:
+        entity_id: media_player.fernsehzimmer
+    type: button
+  - icon: mdi:video-plus-outline
+    icon_height: 25px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: ChannelUp
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:volume-minus
+    icon_height: 25px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data: {}
+      service: media_player.volume_down
+      target:
+        entity_id: media_player.fernsehzimmer
+    type: button
+  - icon: mdi:video-minus-outline
+    icon_height: 25px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: ChannelDown
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  columns: 2
+  square: false
+  type: grid
+- cards:
+  - icon: mdi:television
+    icon_height: 35px
+    show_icon: true
+    show_name: true
+    tap_action:
+      action: call-service
+      data:
+        command: Tv
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:chevron-up-circle
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Up
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:home-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Home
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - hold_action:
+      action: none
+    icon: mdi:chevron-left-circle
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Left
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - hold_action:
+      action: none
+    icon: mdi:check-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Confirm
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - hold_action:
+      action: none
+    icon: mdi:chevron-right-circle
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Right
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - hold_action:
+      action: none
+    icon: mdi:backspace-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Exit
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - hold_action:
+      action: none
+    icon: mdi:chevron-down-circle
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Down
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - hold_action:
+      action: none
+    icon: mdi:television-guide
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: GGuide
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  columns: 3
+  square: false
+  type: grid
+- cards:
+  - icon: mdi:pause
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Pause
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:play
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Play
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:stop
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Stop
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  columns: 3
+  square: false
+  type: grid
+- cards:
+  - icon: mdi:skip-backward
+    icon_height: 25px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: toggle
+    type: button
+  - icon: mdi:skip-forward
+    icon_height: 25px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: toggle
+    type: button
+  columns: 2
+  square: false
+  type: grid
+- hold_action:
+    action: none
+  icon: mdi:volume-off
+  icon_height: 25px
+  show_icon: true
+  show_name: false
+  tap_action:
+    action: call-service
+    data:
+      is_volume_muted: false
+    service: media_player.volume_mute
+    target:
+      entity_id: media_player.fernsehzimmer
+  type: button
+- cards:
+  - icon: ''
+    name: ROT
+    show_icon: false
+    show_name: true
+    tap_action:
+      action: call-service
+      data:
+        command: Red
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - name: "GR\xDCN"
+    show_icon: false
+    show_name: true
+    tap_action:
+      action: call-service
+      data:
+        command: Green
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - name: GELB
+    show_icon: false
+    show_name: true
+    tap_action:
+      action: call-service
+      data:
+        command: Yellow
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - name: BLAU
+    show_icon: false
+    show_name: true
+    tap_action:
+      action: call-service
+      data:
+        command: Blue
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  columns: 4
+  square: false
+  type: grid
+- cards:
+  - entity: ''
+    hold_action:
+      action: none
+    icon: mdi:numeric-1-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    show_state: false
+    tap_action:
+      action: call-service
+      data:
+        command: Num1
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:numeric-2-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    show_state: false
+    tap_action:
+      action: call-service
+      data:
+        command: Num2
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:numeric-3-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Num3
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:numeric-4-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Num4
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:numeric-5-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Num5
+      service: remote.send_command
+      target: {}
+    type: button
+  - icon: mdi:numeric-6-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Num6
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:numeric-7-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Num7
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:numeric-8-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Num8
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon: mdi:numeric-9-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: false
+    tap_action:
+      action: call-service
+      data:
+        command: Num9
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon_height: 35px
+    show_icon: false
+    show_name: false
+    tap_action:
+      action: none
+    type: button
+  - icon: mdi:numeric-0-circle-outline
+    icon_height: 35px
+    show_icon: true
+    show_name: true
+    tap_action:
+      action: call-service
+      data:
+        command: Num0
+      service: remote.send_command
+      target:
+        device_id: ea387be6edf3930b081da835b736a369
+    type: button
+  - icon_height: 35px
+    show_icon: false
+    show_name: false
+    tap_action:
+      action: none
+    type: button
+  columns: 3
+  square: false
+  type: grid
+type: vertical-stack

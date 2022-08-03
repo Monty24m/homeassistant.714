@@ -265,3 +265,9 @@
     light_0008dd898f1553_supported_features:
       value_template: "{{ state_attr('light.0008dd898f1553', 'supported_features') | float }}"
       friendly_name: "Supported Features"
+
+    # -------------------------------------------
+    # Homematic Sensors
+    # -------------------------------------------
+    # Abwesenheit
+    

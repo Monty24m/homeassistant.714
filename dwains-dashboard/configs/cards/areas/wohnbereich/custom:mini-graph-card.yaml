@@ -3,18 +3,34 @@ col_span_lg: '3'
 col_span_xl: '4'
 color_thresholds:
 - color: '#f39c12'
+  value: 18
+- color: '#f39c12'
+  value: 19
+- color: '#f39c12'
   value: 20
-- color: '#d35400'
+- color: '#f39c12'
   value: 21
-- color: '#c0392b'
-  value: 21.5
+- color: '#f39c12'
+  value: 22
+- color: '#f39c12'
+  value: 23
+- color: '#f39c12'
+  value: 24
+- color: '#f39c12'
+  value: 30
+- color: '#f39c12'
+  value: 40
+- color: '#f39c12'
+  value: 50
 entities:
 - entity: sensor.climate_int0000001_current_temperature
   name: INNEN
 - color: blue
   entity: sensor.temperature_diedorf_schwaben_bib
   name: AUSSEN
+hours_to_show: 144
 name: Temperatur
+points_per_hour: 10
 position: top
 row_span: '1'
 row_span_lg: '1'

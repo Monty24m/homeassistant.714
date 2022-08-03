@@ -30,6 +30,16 @@ alarm_control_panel:
       arming_time: 0
       delay_time: 0
 
+frontend:
+  themes: !include themes.yaml
+
+# Telegram Bot Integration
+telegram_bot:
+  - platform: polling
+    api_key: !secret telegram_bot_api_key
+    allowed_chat_ids:
+      - !secret telegram_bot_chat_id
+
 automation: !include automations.yaml
 homematic: !include integrations/homematic.yaml
 tts: !include integrations/tts.yaml
