@@ -1220,32 +1220,6 @@
             }
         }
     },
-    "node-red-contrib-alexa": {
-        "name": "node-red-contrib-alexa",
-        "version": "0.0.7",
-        "local": true,
-        "user": true,
-        "nodes": {
-            "alexa": {
-                "name": "alexa",
-                "types": [
-                    "alexa-skill",
-                    "alexa-http launch",
-                    "alexa-http intent",
-                    "alexa-http session-end",
-                    "alexa-say",
-                    "alexa-card",
-                    "alexa-link-account",
-                    "alexa-http response"
-                ],
-                "enabled": true,
-                "local": true,
-                "user": false,
-                "module": "node-red-contrib-alexa",
-                "file": "/config/node-red/node_modules/node-red-contrib-alexa/alexa.js"
-            }
-        }
-    },
     "node-red-contrib-alexa-remote2": {
         "name": "node-red-contrib-alexa-remote2",
         "version": "3.10.4",
