@@ -281,5 +281,5 @@
 
     weather_forecast:
       friendly_name: "Forecast Temperature"
-      unit_of_measurement: "degrees"
-      value_template: "{{ state_attr('weather.dwd_weather_diedorf_schwaben_bib', 'forecast[0].temperature') }}"
+      unit_of_measurement: "°C"
+      value_template: "{{ state_attr('weather.dwd_weather_diedorf_schwaben_bib', 'temperature') | float }}"
