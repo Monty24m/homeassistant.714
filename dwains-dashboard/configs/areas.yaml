@@ -13,9 +13,9 @@ charlotte:
   floor: Obergeschoss
   icon: mdi:face-woman-outline
 einstellungen:
-  disabled: true
+  disabled: false
   floor: ''
-  icon: ''
+  icon: mdi:cog-play-outline
 flur:
   disabled: false
   floor: Innen

@@ -1,0 +1,28 @@
+cards:
+  - show_name: false
+    show_icon: true
+    type: button
+    tap_action:
+      action: toggle
+    entity: input_boolean.programm_hitzeschutz
+    icon_height: 35px
+    name: Hitzeschutz
+    show_state: true
+  - type: markdown
+    content: >-
+      ## Hitzeschutz
+
+      Das Programm steuert die Rollläden im Haus. Wenn der Hitzschutz aktiv ist,
+      werden die Rollläden abhängig vom Stand der Sonne und der Wettervorhersage
+      geöffnet und/ oder geschlossen. 
+      Das Hitzeschutzprogramm schliesst dabei die Rollläden nicht vollständig sondern lässt immer noch genügend Licht
+      hinein um sich ohne zusätzliches Licht im Haus zu bewegen oder zu
+      arbeiten.
+col_span: "2"
+col_span_lg: "3"
+col_span_xl: "4"
+position: top
+row_span: "1"
+row_span_lg: "1"
+row_span_xl: "1"
+type: horizontal-stack
