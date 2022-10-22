@@ -1,0 +1,28 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+double_tap_action:
+  action: call-service
+  data: {}
+  service: cover.close_cover
+  target:
+    entity_id: cover.00115d89991b61
+entity: cover.00115d89991b61
+hold_action:
+  action: call-service
+  data: {}
+  service: cover.stop_cover
+  target:
+    entity_id: cover.00115d89991b61
+name: Charlotte - Dach
+position: bottom
+row_span: '1'
+row_span_lg: '1'
+row_span_xl: '1'
+tap_action:
+  action: call-service
+  data: {}
+  service: cover.open_cover
+  target:
+    entity_id: cover.00115d89991b61
+type: custom:mushroom-cover-card

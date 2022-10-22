@@ -1,0 +1,9 @@
+col_span: '2'
+col_span_lg: '2'
+col_span_xl: '2'
+entity: climate.meq0182049
+position: bottom
+row_span: '2'
+row_span_lg: '2'
+row_span_xl: '2'
+type: custom:better-thermostat-ui-card

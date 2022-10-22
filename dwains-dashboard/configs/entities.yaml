@@ -2,88 +2,97 @@ binary_sensor.00091a499b76bb_motion_detection_active:
   disabled: true
 climate.int0000001:
   grouped_sort_order: 1
+  sort_order: 3
+  excluded: true
+  hidden: true
 climate.oeq0659364:
-  col_span: "1"
-  col_span_lg: "1"
-  col_span_xl: "1"
+  col_span: '1'
+  col_span_lg: '1'
+  col_span_xl: '1'
   custom_card: false
   custom_popup: false
   disabled: false
   excluded: false
-  friendly_name: ""
+  friendly_name: ''
   hidden: false
-  row_span: "1"
-  row_span_lg: "1"
-  row_span_xl: "1"
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
   sort_order: 1
 climate.req0510046:
   sort_order: 5
 cover.00115d8992e96b:
-  col_span: "2"
-  col_span_lg: "2"
-  col_span_xl: "2"
+  col_span: '2'
+  col_span_lg: '2'
+  col_span_xl: '2'
   custom_card: false
   custom_popup: false
   disabled: false
   excluded: false
-  friendly_name: ""
+  friendly_name: ''
   hidden: false
-  row_span: "1"
-  row_span_lg: "1"
-  row_span_xl: "1"
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
   sort_order: 6
 cover.00115d8992ea34:
-  col_span: "2"
-  col_span_lg: "2"
-  col_span_xl: "2"
+  col_span: '2'
+  col_span_lg: '2'
+  col_span_xl: '2'
   custom_card: false
   custom_popup: false
   disabled: false
   excluded: false
-  friendly_name: ""
+  friendly_name: ''
   hidden: false
-  row_span: "1"
-  row_span_lg: "1"
-  row_span_xl: "1"
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
   sort_order: 4
 cover.00115d8992ea44:
-  col_span: "2"
-  col_span_lg: "2"
-  col_span_xl: "2"
+  col_span: '2'
+  col_span_lg: '2'
+  col_span_xl: '2'
   custom_card: false
   custom_popup: false
   disabled: false
   excluded: false
-  friendly_name: ""
-  hidden: false
-  row_span: "1"
-  row_span_lg: "1"
-  row_span_xl: "1"
+  friendly_name: ''
+  hidden: true
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
   sort_order: 2
 cover.00115d89991b61:
-  col_span: "2"
-  col_span_lg: "2"
-  col_span_xl: "2"
+  col_span: '2'
+  col_span_lg: '2'
+  col_span_xl: '2'
   custom_card: false
   custom_popup: false
   disabled: false
   excluded: false
-  friendly_name: ""
+  friendly_name: ''
   hidden: false
-  row_span: "1"
-  row_span_lg: "1"
-  row_span_xl: "1"
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
   sort_order: 3
 cover.neq1320714:
   grouped_sort_order: 1
+  sort_order: 4
+  hidden: true
 cover.neq1320731:
   grouped_sort_order: 2
+  sort_order: 5
+  hidden: true
 light.0008dd898f1553:
   hidden: true
 light.gastezimmer:
   sort_order: 7
 light.neq1800641:
   devices_sort_order: 1
+  sort_order: 2
+  hidden: true
 media_player.fernseher:
   hidden: true
 media_player.fernsehzimmer:
@@ -115,15 +124,84 @@ sensor.siebeneinviertel_max_connection_upload_throughput:
 sensor.siebeneinviertel_upload_throughput:
   hidden: true
 weather.dwd_weather_diedorf_schwaben_bib:
-  col_span: "2"
-  col_span_lg: "3"
-  col_span_xl: "4"
+  col_span: '2'
+  col_span_lg: '3'
+  col_span_xl: '4'
   custom_card: false
   custom_popup: false
   disabled: false
   excluded: false
   friendly_name: Wetter
   hidden: false
-  row_span: "1"
-  row_span_lg: "1"
-  row_span_xl: "1"
+  row_span: '1'
+  row_span_lg: '1'
+  row_span_xl: '1'
+climate.meq0182049:
+  hidden: true
+  excluded: false
+  disabled: false
+  friendly_name: ''
+  col_span: '1'
+  row_span: '2'
+  col_span_lg: '1'
+  row_span_lg: '3'
+  col_span_xl: '1'
+  row_span_xl: '1'
+  custom_card: false
+  custom_popup: false
+cover.oeq1220262:
+  hidden: false
+  excluded: false
+  disabled: false
+  friendly_name: ''
+  col_span: '2'
+  row_span: '2'
+  col_span_lg: '2'
+  row_span_lg: '2'
+  col_span_xl: '2'
+  row_span_xl: '1'
+  custom_card: false
+  custom_popup: false
+  sort_order: 1
+button.sony_kdl_55w805c_reboot:
+  sort_order: 1
+  hidden: true
+button.sony_kdl_55w805c_terminate_apps:
+  sort_order: 2
+  hidden: true
+device_tracker.sonoszp:
+  sort_order: 6
+  hidden: true
+device_tracker.fernseher:
+  sort_order: 7
+  hidden: true
+device_tracker.carolinsmacbook:
+  sort_order: 8
+  hidden: true
+media_player.sony_bravia_tv:
+  sort_order: 9
+  hidden: true
+number.fernsehzimmer_surround_level:
+  sort_order: 10
+  hidden: true
+number.fernsehzimmer_music_surround_level:
+  sort_order: 11
+  hidden: true
+remote.sony_bravia_tv:
+  sort_order: 12
+  hidden: true
+switch.sonoszp_internet_access:
+  sort_order: 13
+  hidden: true
+switch.fernseher_internet_access:
+  sort_order: 14
+  hidden: true
+switch.carolinsmacbook_internet_access:
+  sort_order: 15
+  hidden: true
+switch.fernsehzimmer_loudness:
+  sort_order: 16
+  hidden: true
+switch.fernsehzimmer_surround_music_full_volume:
+  sort_order: 17
+  hidden: true

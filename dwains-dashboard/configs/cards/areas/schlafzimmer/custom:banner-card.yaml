@@ -1,0 +1,14 @@
+background: url("https://images.unsplash.com/photo-1571669829615-616b9e255d4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80")
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+entities:
+- entity: sensor.climate_int0000001_current_temperature
+  name: Temperatur
+heading:
+- null
+position: top
+row_span: '2'
+row_span_lg: '3'
+row_span_xl: '4'
+type: custom:banner-card
