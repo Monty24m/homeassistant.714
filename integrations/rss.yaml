@@ -1,0 +1,7 @@
+name: Engineering Feed
+feed_url: "https://www.tvspielfilm.de/tv-programm/rss/heute2015.xml"
+date_format: "%a, %b %d %I:%M %p"
+inclusions:
+  - title
+  - link
+  - description

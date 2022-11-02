@@ -53,11 +53,29 @@ cards:
   - volume_mute
   - volume_buttons
 - cards:
-  - entity: cover.neq1320731
+  - double_tap_action:
+      action: call-service
+      data: {}
+      service: cover.close_cover
+      target:
+        entity_id: cover.neq1320731
+    entity: cover.neq1320731
     fill_container: true
+    hold_action:
+      action: call-service
+      data: {}
+      service: cover.stop_cover
+      target:
+        entity_id: cover.neq1320731
     layout: vertical
-    show_buttons_control: true
-    show_position_control: false
+    show_buttons_control: false
+    show_position_control: true
+    tap_action:
+      action: call-service
+      data: {}
+      service: cover.open_cover
+      target:
+        entity_id: cover.neq1320731
     type: custom:mushroom-cover-card
   - entity: cover.neq1320714
     fill_container: true

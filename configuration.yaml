@@ -43,6 +43,7 @@ telegram_bot:
 automation: !include automations.yaml
 homematic: !include integrations/homematic.yaml
 tts: !include integrations/tts.yaml
+#feedparser: !include integrations/rss.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
 sensor: !include sensors.yaml
