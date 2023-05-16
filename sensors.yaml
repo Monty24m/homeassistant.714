@@ -1,12 +1,19 @@
 - platform: feedparser
-  name: tvjetzt
+  name: Engineering Feed
   feed_url: "https://www.tvspielfilm.de/tv-programm/rss/jetzt.xml"
   date_format: "%a, %b %d %I:%M %p"
-  inclusions:
-    - title
-    - link
-    - description
-    - enclosure
+  scan_interval: 1
+
+- platform: time_date
+  display_options:
+    - "time"
+    - "date"
+    - "date_time"
+    - "date_time_utc"
+    - "date_time_iso"
+    - "time_date"
+    - "time_utc"
+    - "beat"
 
 - platform: template
   sensors:

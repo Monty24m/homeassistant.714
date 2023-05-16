@@ -205,3 +205,17 @@ switch.fernsehzimmer_loudness:
 switch.fernsehzimmer_surround_music_full_volume:
   sort_order: 17
   hidden: true
+binary_sensor.00091be991086b_motion_detection_active:
+  hidden: true
+binary_sensor.00091be991086b_motion:
+  hidden: true
+sensor.00091be991086b_illumination:
+  hidden: true
+binary_sensor.00091be991086b_low_bat:
+  hidden: true
+binary_sensor.00091be9a62caa_motion_detection_active:
+  hidden: true
+binary_sensor.00091be9a62caa_motion:
+  hidden: true
+binary_sensor.00091be9a62caa_low_bat:
+  hidden: true

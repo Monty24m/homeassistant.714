@@ -1,0 +1,58 @@
+cards:
+- entity: cover.00115f2997cf4d
+  fill_container: true
+  layout: horizontal
+  name: EG Westseite
+  show_buttons_control: true
+  type: custom:mushroom-cover-card
+- entity: cover.00115f2997cf61
+  fill_container: true
+  layout: horizontal
+  name: "EG S\xFCdseite"
+  show_buttons_control: true
+  type: custom:mushroom-cover-card
+- entity: cover.neq1320714
+  fill_container: true
+  layout: horizontal
+  name: EG Terrasse
+  show_buttons_control: true
+  type: custom:mushroom-cover-card
+- entity: cover.00115f2997cf4f
+  fill_container: true
+  layout: horizontal
+  name: OG Bad
+  show_buttons_control: true
+  type: custom:mushroom-cover-card
+- entity: cover.00115d8992ea44
+  fill_container: true
+  layout: horizontal
+  name: OG Charlotte Westseite
+  show_buttons_control: true
+  type: custom:mushroom-cover-card
+- entity: cover.00115d8992ea34
+  fill_container: true
+  layout: horizontal
+  name: OG Josefine Westseite
+  show_buttons_control: true
+  show_position_control: false
+  show_tilt_position_control: false
+  type: custom:mushroom-cover-card
+- entity: cover.oeq1220262
+  fill_container: true
+  layout: horizontal
+  show_buttons_control: true
+  type: custom:mushroom-cover-card
+- entity: cover.00115d8992e96b
+  fill_container: true
+  layout: horizontal
+  name: OG Schlafzimmer
+  show_buttons_control: true
+  type: custom:mushroom-cover-card
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+position: top
+row_span: '1'
+row_span_lg: '1'
+row_span_xl: '1'
+type: vertical-stack

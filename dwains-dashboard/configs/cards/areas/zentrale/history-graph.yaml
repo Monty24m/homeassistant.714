@@ -1,0 +1,13 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+entities:
+- entity: input_boolean.bol_sonne_auf_sudseite
+- entity: input_boolean.bol_sonne_auf_westseite
+- entity: sun.sun
+- entity: binary_sensor.bin_daytime
+position: bottom
+row_span: '1'
+row_span_lg: '1'
+row_span_xl: '1'
+type: history-graph
