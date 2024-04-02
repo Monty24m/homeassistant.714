@@ -1,0 +1,15 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+entity: cover.neq1320714
+fill_container: true
+icon: mdi:window-shutter-open
+layout: horizontal
+name: Terrasse Rollladen
+position: top
+row_span: '2'
+row_span_lg: '3'
+row_span_xl: '4'
+show_buttons_control: true
+show_position_control: true
+type: custom:mushroom-cover-card

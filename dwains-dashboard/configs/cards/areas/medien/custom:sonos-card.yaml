@@ -1,0 +1,12 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+position: top
+row_span: '1'
+row_span_lg: '1'
+row_span_xl: '1'
+sections:
+- player
+- media browser
+showVolumeUpAndDownButtons: true
+type: custom:sonos-card

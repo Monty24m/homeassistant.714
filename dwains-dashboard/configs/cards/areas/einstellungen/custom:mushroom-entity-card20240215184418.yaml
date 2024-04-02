@@ -1,0 +1,9 @@
+col_span: '1'
+col_span_lg: '1'
+col_span_xl: '1'
+entity: binary_sensor.00091a499b76bb_motion
+position: top
+row_span: '1'
+row_span_lg: '1'
+row_span_xl: '1'
+type: custom:mushroom-entity-card

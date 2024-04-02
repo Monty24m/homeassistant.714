@@ -1,0 +1,14 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+collapsible_controls: false
+entity: climate.002aa0c9909a49
+fill_container: true
+layout: horizontal
+name: Heizung
+position: top
+row_span: '2'
+row_span_lg: '3'
+row_span_xl: '4'
+show_temperature_control: true
+type: custom:mushroom-climate-card

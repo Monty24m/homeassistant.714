@@ -810,7 +810,7 @@
     },
     "node-red-dashboard": {
         "name": "node-red-dashboard",
-        "version": "3.4.0",
+        "version": "3.5.0",
         "local": false,
         "user": false,
         "nodes": {
@@ -1068,7 +1068,7 @@
     },
     "node-red-node-email": {
         "name": "node-red-node-email",
-        "version": "1.19.1",
+        "version": "2.0.0",
         "local": false,
         "user": false,
         "nodes": {
@@ -1146,7 +1146,7 @@
     },
     "node-red-node-serialport": {
         "name": "node-red-node-serialport",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "local": false,
         "user": false,
         "nodes": {
@@ -1474,6 +1474,25 @@
                 "user": false,
                 "module": "node-red-contrib-sun-position",
                 "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/81-clock-timer.js"
+            }
+        }
+    },
+    "node-red-contrib-suncron": {
+        "name": "node-red-contrib-suncron",
+        "version": "1.6.2",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "suncron": {
+                "name": "suncron",
+                "types": [
+                    "suncron"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-suncron",
+                "file": "/config/node-red/node_modules/node-red-contrib-suncron/suncron.js"
             }
         }
     }

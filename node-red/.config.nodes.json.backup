@@ -1068,7 +1068,7 @@
     },
     "node-red-node-email": {
         "name": "node-red-node-email",
-        "version": "1.19.1",
+        "version": "2.0.0",
         "local": false,
         "user": false,
         "nodes": {
@@ -1146,7 +1146,7 @@
     },
     "node-red-node-serialport": {
         "name": "node-red-node-serialport",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "local": false,
         "user": false,
         "nodes": {
@@ -1356,6 +1356,143 @@
                 "user": false,
                 "module": "node-red-contrib-stoptimer",
                 "file": "/config/node-red/node_modules/node-red-contrib-stoptimer/stoptimer.js"
+            }
+        }
+    },
+    "node-red-contrib-sun-position": {
+        "name": "node-red-contrib-sun-position",
+        "version": "2.2.0-beta3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "position-config": {
+                "name": "position-config",
+                "types": [
+                    "position-config"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sun-position",
+                "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/10-position-config.js"
+            },
+            "time-inject": {
+                "name": "time-inject",
+                "types": [
+                    "time-inject"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sun-position",
+                "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/20-time-inject.js"
+            },
+            "within-time-switch": {
+                "name": "within-time-switch",
+                "types": [
+                    "within-time-switch"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sun-position",
+                "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/21-within-time-switch.js"
+            },
+            "delay-until": {
+                "name": "delay-until",
+                "types": [
+                    "rdg-delay-until"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sun-position",
+                "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/22-delay-until.js"
+            },
+            "sun-position": {
+                "name": "sun-position",
+                "types": [
+                    "sun-position"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sun-position",
+                "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/30-sun-position.js"
+            },
+            "moon-position": {
+                "name": "moon-position",
+                "types": [
+                    "moon-position"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sun-position",
+                "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/31-moon-position.js"
+            },
+            "time-comp": {
+                "name": "time-comp",
+                "types": [
+                    "time-comp"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sun-position",
+                "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/60-time-comp.js"
+            },
+            "time-span": {
+                "name": "time-span",
+                "types": [
+                    "time-span"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sun-position",
+                "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/61-time-span.js"
+            },
+            "blind-control": {
+                "name": "blind-control",
+                "types": [
+                    "blind-control"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sun-position",
+                "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/80-blind-control.js"
+            },
+            "clock-timer": {
+                "name": "clock-timer",
+                "types": [
+                    "clock-timer"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-sun-position",
+                "file": "/config/node-red/node_modules/node-red-contrib-sun-position/nodes/81-clock-timer.js"
+            }
+        }
+    },
+    "node-red-contrib-suncron": {
+        "name": "node-red-contrib-suncron",
+        "version": "1.6.2",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "suncron": {
+                "name": "suncron",
+                "types": [
+                    "suncron"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-suncron",
+                "file": "/config/node-red/node_modules/node-red-contrib-suncron/suncron.js"
             }
         }
     }

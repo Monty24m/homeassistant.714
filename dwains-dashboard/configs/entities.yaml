@@ -14,13 +14,14 @@ climate.oeq0659364:
   disabled: false
   excluded: false
   friendly_name: ''
-  hidden: false
+  hidden: true
   row_span: '1'
   row_span_lg: '1'
   row_span_xl: '1'
   sort_order: 1
 climate.req0510046:
   sort_order: 5
+  hidden: true
 cover.00115d8992e96b:
   col_span: '2'
   col_span_lg: '2'
@@ -35,6 +36,7 @@ cover.00115d8992e96b:
   row_span_lg: '1'
   row_span_xl: '1'
   sort_order: 6
+  devices_sort_order: 5
 cover.00115d8992ea34:
   col_span: '2'
   col_span_lg: '2'
@@ -49,6 +51,7 @@ cover.00115d8992ea34:
   row_span_lg: '1'
   row_span_xl: '1'
   sort_order: 4
+  devices_sort_order: 3
 cover.00115d8992ea44:
   col_span: '2'
   col_span_lg: '2'
@@ -58,11 +61,12 @@ cover.00115d8992ea44:
   disabled: false
   excluded: false
   friendly_name: ''
-  hidden: true
+  hidden: false
   row_span: '1'
   row_span_lg: '1'
   row_span_xl: '1'
   sort_order: 2
+  devices_sort_order: 2
 cover.00115d89991b61:
   col_span: '2'
   col_span_lg: '2'
@@ -77,14 +81,17 @@ cover.00115d89991b61:
   row_span_lg: '1'
   row_span_xl: '1'
   sort_order: 3
+  devices_sort_order: 4
 cover.neq1320714:
   grouped_sort_order: 1
   sort_order: 4
   hidden: true
+  devices_sort_order: 7
 cover.neq1320731:
   grouped_sort_order: 2
   sort_order: 5
   hidden: true
+  devices_sort_order: 8
 light.0008dd898f1553:
   hidden: true
 light.gastezimmer:
@@ -163,6 +170,7 @@ cover.oeq1220262:
   custom_card: false
   custom_popup: false
   sort_order: 1
+  devices_sort_order: 1
 button.sony_kdl_55w805c_reboot:
   sort_order: 1
   hidden: true
@@ -218,4 +226,41 @@ binary_sensor.00091be9a62caa_motion_detection_active:
 binary_sensor.00091be9a62caa_motion:
   hidden: true
 binary_sensor.00091be9a62caa_low_bat:
+  hidden: true
+binary_sensor.samsung_m2070_series_2:
+  hidden: true
+binary_sensor.samsung_m2070_series:
+  hidden: true
+switch.sec30cda7928a30_internet_access:
+  hidden: true
+sensor.samsung_m2070_series_output_tray_0:
+  hidden: true
+sensor.samsung_m2070_series_tray_tray_1:
+  hidden: true
+device_tracker.administorsimac:
+  hidden: true
+device_tracker.sec30cda7928a30:
+  hidden: true
+sensor.samsung_m2070_series_toner_black:
+  hidden: true
+cover.req1301549:
+  hidden: true
+  devices_sort_order: 6
+switch.neq1316177_2:
+  hidden: true
+switch.administorsimac_internet_access:
+  hidden: true
+switch.neq1316177_4:
+  hidden: true
+climate.002a9d89bc211e:
+  hidden: true
+input_boolean.bol_morning_livingroom_roll_open_executed:
+  hidden: true
+number.fernsehzimmer_balance:
+  hidden: true
+device_tracker.ipad_von_andreas_2:
+  hidden: true
+binary_sensor.00091a499b76bb_motion:
+  hidden: true
+switch.ipad_von_andreas_internet_access:
   hidden: true

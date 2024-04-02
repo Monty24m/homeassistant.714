@@ -1,0 +1,13 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+collapsible_controls: false
+entity: update.home_assistant_supervisor_update
+fill_container: true
+layout: horizontal
+position: top
+row_span: '2'
+row_span_lg: '3'
+row_span_xl: '4'
+show_buttons_control: true
+type: custom:mushroom-update-card

@@ -1,0 +1,14 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+entity: binary_sensor.00109d89a2331b_state
+fill_container: true
+icon: mdi:door
+icon_color: amber
+layout: horizontal
+name: "Terrassent\xFCr"
+position: top
+row_span: '2'
+row_span_lg: '3'
+row_span_xl: '4'
+type: custom:mushroom-entity-card

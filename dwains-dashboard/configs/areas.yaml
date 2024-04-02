@@ -7,7 +7,7 @@ buro:
   disabled: false
   floor: Innen
   grouped_sort_order: 6
-  icon: mdi:email
+  icon: mdi:chair-rolling
 charlotte:
   disabled: false
   floor: Obergeschoss
@@ -56,3 +56,15 @@ wohnzimmer:
   disabled: false
   floor: Erdgeschoss
   icon: mdi:sofa-outline
+sonos_one_sl:
+  icon: ''
+  floor: ''
+  disabled: true
+unnamed_room:
+  icon: ''
+  floor: ''
+  disabled: true
+medien:
+  icon: mdi:music-note
+  floor: ''
+  disabled: false

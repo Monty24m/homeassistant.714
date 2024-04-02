@@ -1,0 +1,24 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+entity: media_player.sony_bravia_tv
+fill_container: true
+icon: mdi:television
+layout: horizontal
+media_controls:
+- play_pause_stop
+- next
+- previous
+- on_off
+name: Fernseher
+position: top
+row_span: '2'
+row_span_lg: '3'
+row_span_xl: '4'
+show_volume_level: true
+type: custom:mushroom-media-player-card
+use_media_info: true
+volume_controls:
+- volume_mute
+- volume_set
+- volume_buttons

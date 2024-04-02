@@ -1,0 +1,15 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+entity: light.0008dd898f1553
+fill_container: true
+icon_color: amber
+layout: horizontal
+name: Deckenlicht Wohnzimmer
+position: top
+row_span: '2'
+row_span_lg: '3'
+row_span_xl: '4'
+show_brightness_control: true
+type: custom:mushroom-light-card
+use_light_color: false

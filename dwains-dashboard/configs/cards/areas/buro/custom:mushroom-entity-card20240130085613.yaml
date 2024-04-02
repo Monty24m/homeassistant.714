@@ -1,0 +1,14 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '4'
+entity: switch.neq1316177_4
+fill_container: true
+icon: mdi:power-plug-outline
+icon_color: pink
+layout: horizontal
+name: Steckdosen II
+position: top
+row_span: '2'
+row_span_lg: '1'
+row_span_xl: '4'
+type: custom:mushroom-entity-card
