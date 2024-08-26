@@ -1,0 +1,14 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '3'
+entity: weather.diedorf_schwaben_bib
+forecast_rows: 7
+hide_clock: true
+hide_date: true
+hourly_forecast: true
+position: bottom
+row_span: '2'
+row_span_lg: '3'
+row_span_xl: '4'
+type: custom:clock-weather-card
+weather_icon_type: fill

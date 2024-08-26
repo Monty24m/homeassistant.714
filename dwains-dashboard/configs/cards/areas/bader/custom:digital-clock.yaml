@@ -1,0 +1,11 @@
+col_span: '2'
+col_span_lg: '3'
+col_span_xl: '3'
+position: top
+row_span: '2'
+row_span_lg: '3'
+row_span_xl: '4'
+timeFormat:
+  hour: 2-digit
+  minute: 2-digit
+type: custom:digital-clock

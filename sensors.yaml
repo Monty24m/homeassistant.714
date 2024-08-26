@@ -13,7 +13,8 @@
     - "date_time_iso"
     - "time_date"
     - "time_utc"
-    - "beat"
+
+    #value must be one of ['date', 'date_time', 'date_time_iso', 'date_time_utc', 'time', 'time_date', 'time_utc'] 'display_options->7', got 'beat'
 
 - platform: template
   sensors:
